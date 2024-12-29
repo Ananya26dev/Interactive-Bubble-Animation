@@ -1,0 +1,51 @@
+.circle{
+  transition: background-color 0.3s ease-in-out;
+}
+.circle:hover{
+  background-color: #bf92ec;
+}
+.circle1{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: rgb(9, 9, 146);
+}
+.circle2{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  top: 20px;
+  left: 130px;
+  z-index: 2;
+}
+.circle3{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: #b2e6b2;
+  z-index: 1;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+.circle4{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: lightgray;
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+.circle5{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: pink;
+  top: 50px;
+  left: 250px;
+  position: absolute;
+  z-index: 3;
+}
